@@ -5,7 +5,7 @@
     android:background="@drawable/bg"
                 android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jeferson.proyecticartive.activities.SplashActivity">
+    tools:context="com.jeferson.proyecticartive.activities.activities.SplashActivity">
     <ImageView
         android:layout_margin="22dp"
         android:background="@drawable/moon"
@@ -13,16 +13,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView2"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imgbus"
+    <com.cunoraz.continuouscrollable.ContinuousScrollableImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:imageSrc="@drawable/logo_cartive"
+        android:layout_below="@id/imageView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="150dp"
-        android:text="TicBus"
-        android:textColor="@color/primary_dark"
-        android:textSize="50sp"
-        android:textStyle="bold"/>
+
+        />
     <ImageView
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"

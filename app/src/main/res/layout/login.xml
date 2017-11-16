@@ -2,16 +2,16 @@
                                     xmlns:app="http://schemas.android.com/apk/res-auto"
                                     xmlns:tools="http://schemas.android.com/tools"
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:orientation="vertical"
                                     app:cardCornerRadius="5dp"
                                     app:cardElevation="19dp"
-                                    tools:context="com.jeferson.proyecticartive.activities.LoginActivity$PlaceholderFragment">
+                                    tools:context="com.jeferson.proyecticartive.activities.activities.LoginActivity$PlaceholderFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:orientation="vertical">
 
         <com.rengwuxian.materialedittext.MaterialEditText
@@ -21,17 +21,18 @@
             android:layout_marginBottom="30dp"
             android:background="@drawable/editborder"
             android:hint="Correo"
+            android:id="@+id/correo"
             app:met_clearButton="true"
             app:met_iconPadding="0dp"
             app:met_iconRight="@drawable/ic_avatar"
             />
 
         <com.rengwuxian.materialedittext.MaterialEditText
-            android:id="@+id/edtpass"
+            android:id="@+id/password"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="50dp"
             android:hint="Contraseña"
             android:inputType="textPassword"
             app:met_iconPadding="0dp"
@@ -45,6 +46,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/buttonborder"
             android:text="LOG IN"
+            android:id="@+id/btningresar"
             android:textColor="@color/primary_light"
             android:textStyle="bold"/>
 

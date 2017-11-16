@@ -1,4 +1,4 @@
-package com.jeferson.proyecticartive.activities;
+package com.jeferson.proyecticartive.activities.activities;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.jeferson.proyecticartive.activities;
+package com.jeferson.proyecticartive.activities.activities;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -11,6 +11,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.jeferson.proyecticartive.R;
+import com.jeferson.proyecticartive.activities.fragments.login;
+import com.jeferson.proyecticartive.activities.fragments.register;
 
 public class LoginActivity extends AppCompatActivity {
 
