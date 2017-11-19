@@ -8,9 +8,7 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
-import retrofit2.http.GET;
 import retrofit2.http.POST;
-import retrofit2.http.Path;
 
 /**
  * Created by JARVIS on 15/10/2017.
@@ -35,6 +33,6 @@ public interface ApiService {
                                   @Field("fecha") String fecha);
 
     @FormUrlEncoded
-    @GET("/asientos/{id}")
-    Call<Asiento>showAsiento(@Path("bus_id")Integer id);
+    @POST("/asientos")
+    Call<List<Asiento>>showAsiento(@Field("bus_id") Integer bus_id);
 }
